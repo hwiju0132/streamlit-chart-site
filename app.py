@@ -4,7 +4,7 @@ import pandas as pd
 import os.path
 import datetime
 
-st.sidebar.image('./img/날씨.jpg')
+
 st.sidebar.title('매천 날씨 ')
 con = sqlite3.connect('db.db')
 cur = con.cursor()
