@@ -3,7 +3,6 @@ import sqlite3
 import pandas as pd
 import os.path
 import datetime
-import matplotlib.pyplot as plt
 import numpy as np
 import math
 menu = st.sidebar.selectbox('MENU', options=['그래프 그리기','로그인','회원가입'])
